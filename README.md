@@ -21,7 +21,6 @@ Discord
 
 Get up and running with large language models.
 
-ollama run llama3
 Model library
 
 Ollama supports a list of models available on ollama.com/library
