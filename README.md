@@ -15,7 +15,6 @@ ollama run phi3
 
 4 - reference:
 
-
 Ollama -from https://github.com/ollama/ollama
 Discord
 
