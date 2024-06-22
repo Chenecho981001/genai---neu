@@ -1,5 +1,20 @@
 # genai---neu
 
+I tested two large models using the Ollama software. First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
+
+Start the local terminal and change the directory to the Applications directory using cd /Applications.
+
+In the command line, enter the following commands to start the models:
+
+
+Copy code
+ollama run llama3
+ollama run phi3
+
+
+reference:
+
+
 Ollama -from https://github.com/ollama/ollama
 Discord
 
