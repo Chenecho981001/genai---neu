@@ -1,6 +1,8 @@
 # genai---neu
 
-1 - I tested two large models using the Ollama software. First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
+I tested two large models using the Ollama software.
+
+1 - First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
 
 2 - Start the local terminal and change the directory to the Applications directory using cd /Applications.
 
