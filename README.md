@@ -10,6 +10,7 @@
 Copy code
 
 ollama run llama3
+
 ollama run phi3
 
 
