@@ -1,8 +1,8 @@
-# genai---neu
+# Genai---neu
 
 I tested two large models using the Ollama software.
 
-# development environment
+## development environment
 
 1 - First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
 
