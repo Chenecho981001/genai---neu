@@ -2,6 +2,8 @@
 
 I tested two large models using the Ollama software.
 
+# development environment
+
 1 - First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
 
 2 - Start the local terminal and change the directory to the Applications directory using cd /Applications.
@@ -13,14 +15,14 @@ ollama run llama3
 ollama run phi3
 
 
-4 - reference:
+## reference:
 
 Ollama -from https://github.com/ollama/ollama
 Discord
 
 Get up and running with large language models.
 
-Model library
+## Model library
 
 Ollama supports a list of models available on ollama.com/library
 
