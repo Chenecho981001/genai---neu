@@ -1,37 +1,33 @@
-# genai---neu
+# ChatBot
 
-I tested two large models using the Ollama software.
-
-1 - First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
-
-2 - Start the local terminal and change the directory to the Applications directory using cd /Applications.
-
-3 - In the command line, enter the following commands to start the models:
-
-ollama run llama3
-
-ollama run phi3
+## Domain Selection:
+My bot focuses on the chat part.
+It mainly answers based on keywords entered by the user, focusing on the chat area and helping customers with questions and answers.
 
 
-4 - reference:
+## Application Development:
 
-Ollama -from https://github.com/ollama/ollama
-Discord
+[Install Python] https://www.dataquest.io/blog/installing-python-on-mac/
 
-Get up and running with large language models.
+[Install pip] https://phoenixnap.com/kb/install-pip-mac
 
-Model library
+If you have Python & pip installed then check their version in the terminal or command line tools
 
-Ollama supports a list of models available on ollama.com/library
+python3 --version
+pip --version
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+pip3 install -r requirements.txt
+cd into your directory
+python app.py
 
-Here are some example models that can be downloaded:
 
-Model	Parameters	Size	Download
-Llama 3	8B	4.7GB	ollama run llama3
 
-Llama 3	70B	40GB	ollama run llama3:70b
+## Evaluation and Testing
+This is a chatbot that focuses on the conversational realm.
 
-Phi 3 Mini	3.8B	2.3GB	ollama run phi3
+This chatbot is tightly focused on conversational topics, and based on what you type into the conversation, it will answer based on keywords, closely fitting the keywords you type in, but not able to answer substantively and effectively based on what you type in.
 
-Phi 3 Medium	14B	7.9GB	ollama run phi3:medium
 
+# Tutorial Link
+https://www.youtube.com/watch?v=70H_7C0kMbI&t=1104s
