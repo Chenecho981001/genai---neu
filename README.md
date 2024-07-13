@@ -1,5 +1,7 @@
 # Vector DB Chatbot with RAG
 
+### link to youtube https://youtu.be/rAVvjdwP_S4
+
 ### Project Overview
 
 **Domain:** A chatbot designed to assist users with information about Vector DB  
