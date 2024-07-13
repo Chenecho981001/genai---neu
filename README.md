@@ -26,22 +26,22 @@
       PINECONE_API_KEY=your-pinecone-api-key
       OPENAI_API_KEY=your-openai-api-key
 
-6. **Fetch data from the Vector DB website**
+5. **Fetch data from the Vector DB website**
    
    bash
    Copy code
 
-8. **Fetch data from the Vector DB website**
+6. **Fetch data from the Vector DB website**
    
    mkdir vector-db-docs
    wget -r -P vector-db-docs -E https://www.vector-db.com/docs
    streamlit run app.py
 
-10. **Fetch data from the Vector DB website**
+7. **Fetch data from the Vector DB website**
     
    Pre-process the data by running the ingest_docs.py script
 
-12. **Start the Streamlit app**
+8. **Start the Streamlit app**
     
    streamlit run run_llm.py
 
