@@ -8,34 +8,41 @@
 ### Installation Instructions
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/your-repository.git
    cd your-repository
 
-2. **Create a virtual environment**
+3. **Create a virtual environment**
+   
    pipenv shell
    pipenv install
 
-3. **Set up environment variables**
+4. **Set up environment variables**
+
    Create a .env file in the root directory and add your Pinecone and OpenAI API keys:
       env
       Copy code
       PINECONE_API_KEY=your-pinecone-api-key
       OPENAI_API_KEY=your-openai-api-key
 
-4. **Fetch data from the Vector DB website**
+6. **Fetch data from the Vector DB website**
+   
    bash
    Copy code
 
-5. **Fetch data from the Vector DB website**
+8. **Fetch data from the Vector DB website**
+   
    mkdir vector-db-docs
    wget -r -P vector-db-docs -E https://www.vector-db.com/docs
    streamlit run app.py
 
-6. **Fetch data from the Vector DB website**
+10. **Fetch data from the Vector DB website**
+    
    Pre-process the data by running the ingest_docs.py script
 
-7. **Start the Streamlit app**
+12. **Start the Streamlit app**
+    
    streamlit run run_llm.py
 
 
