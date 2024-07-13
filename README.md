@@ -1,39 +1,41 @@
-# Genai---neu
+# Vector DB Chatbot with RAG
 
-I tested two large models using the Ollama software.
+### Project Overview
 
-## development environment
+**Domain:** A chatbot designed to assist users with information about Vector DB  
+**Scope:** Provide detailed responses and resources regarding Vector DB and its capabilities.
 
-1 - First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
+### Installation Instructions
 
-2 - Start the local terminal and change the directory to the Applications directory using cd /Applications.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-repository.git
+   cd your-repository
 
-3 - In the command line, enter the following commands to start the models:
+2. **Create a virtual environment**
+   pipenv shell
+   pipenv install
 
-ollama run llama3
+3. **Set up environment variables**
+   Create a .env file in the root directory and add your Pinecone and OpenAI API keys:
+      env
+      Copy code
+      PINECONE_API_KEY=your-pinecone-api-key
+      OPENAI_API_KEY=your-openai-api-key
 
-ollama run phi3
+4. **Fetch data from the Vector DB website**
+   bash
+   Copy code
 
+5. **Fetch data from the Vector DB website**
+   mkdir vector-db-docs
+   wget -r -P vector-db-docs -E https://www.vector-db.com/docs
+   streamlit run app.py
 
-## reference:
+6. **Fetch data from the Vector DB website**
+   Pre-process the data by running the ingest_docs.py script
 
-Ollama -from https://github.com/ollama/ollama
-Discord
+7. **Start the Streamlit app**
+   streamlit run run_llm.py
 
-Get up and running with large language models.
-
-## Model library
-
-Ollama supports a list of models available on ollama.com/library
-
-Here are some example models that can be downloaded:
-
-Model	Parameters	Size	Download
-Llama 3	8B	4.7GB	ollama run llama3
-
-Llama 3	70B	40GB	ollama run llama3:70b
-
-Phi 3 Mini	3.8B	2.3GB	ollama run phi3
-
-Phi 3 Medium	14B	7.9GB	ollama run phi3:medium
 
