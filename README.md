@@ -2,6 +2,11 @@
 
 I tested two large models using the Ollama software.
 
+## youtube link:
+https://youtu.be/tl9uMdt11y0
+https://youtu.be/kWm51xu_YbE
+
+
 ## development environment
 
 1 - First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
