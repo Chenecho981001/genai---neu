@@ -1,45 +1,12 @@
-# Genai---neu
+# Assigment7
 
-I tested two large models using the Ollama software.
+Calculating and Reporting Metrics of the RAG Pipeline
+
 
 ## youtube link:
-https://youtu.be/tl9uMdt11y0
-
-https://youtu.be/kWm51xu_YbE
+https://youtu.be/3roiqAY6TCk
 
 
 ## development environment
-
-1 - First, download Ollama, extract the Ollama software package, and move it to the Applications directory.
-
-2 - Start the local terminal and change the directory to the Applications directory using cd /Applications.
-
-3 - In the command line, enter the following commands to start the models:
-
-ollama run llama3
-
-ollama run phi3
-
-
-## reference:
-
-Ollama -from https://github.com/ollama/ollama
-Discord
-
-Get up and running with large language models.
-
-## Model library
-
-Ollama supports a list of models available on ollama.com/library
-
-Here are some example models that can be downloaded:
-
-Model	Parameters	Size	Download
-Llama 3	8B	4.7GB	ollama run llama3
-
-Llama 3	70B	40GB	ollama run llama3:70b
-
-Phi 3 Mini	3.8B	2.3GB	ollama run phi3
-
-Phi 3 Medium	14B	7.9GB	ollama run phi3:medium
+![ef5bee28-f1cd-437b-a97a-b8b330c31dcc](https://github.com/user-attachments/assets/f04fdb14-6f8f-4931-9768-624678f47428)
 
